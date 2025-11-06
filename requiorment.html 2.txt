@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriConnect | Requirements</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f4f8f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #2e8b57;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    section {
+      margin: 30px auto;
+      max-width: 900px;
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #2e8b57;
+      border-bottom: 2px solid #2e8b57;
+      padding-bottom: 5px;
+    }
+
+    ul, ol {
+      margin-left: 30px;
+      line-height: 1.8;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #2e8b57;
+      color: white;
+    }
+
+    footer {
+      background-color: #2e8b57;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌾 AgriConnect – Requirements Specification</h1>
+    <p>Empowering farmers to create value-added agricultural products</p>
+  </header>
+
+  <section>
+    <h2>1. Project Overview</h2>
+    <p>AgriConnect is a web platform designed to connect farmers with global buyers, helping them transform crops into value-added products such as processed foods or handmade goods. It promotes rural entrepreneurship through technology.</p>
+  </section>
+
+  <section>
+    <h2>2. Functional Requirements</h2>
+    <h3>👨‍🌾 Farmer Module</h3>
+    <ul>
+      <li>Register and log in securely.</li>
+      <li>List products with details and images.</li>
+      <li>Manage inventory and update stock.</li>
+      <li>View and track buyer orders.</li>
+      <li>Communicate with buyers.</li>
+    </ul>
+
+    <h3>🛒 Buyer Module</h3>
+    <ul>
+      <li>Register and log in.</li>
+      <li>Browse and search products.</li>
+      <li>Place and track orders.</li>
+      <li>Provide feedback and ratings.</li>
+    </ul>
+
+    <h3>🧑‍💼 Admin Module</h3>
+    <ul>
+      <li>Manage users (farmers and buyers).</li>
+      <li>Approve or remove product listings.</li>
+      <li>Monitor transactions and generate reports.</li>
+      <li>Ensure platform performance and data security.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. Non-Functional Requirements</h2>
+    <table>
+      <tr><th>Type</th><th>Description</th></tr>
+      <tr><td>Usability</td><td>Intuitive and easy-to-use interface for all users.</td></tr>
+      <tr><td>Security</td><td>Secure authentication and data protection.</td></tr>
+      <tr><td>Performance</td><td>Fast and responsive web application.</td></tr>
+      <tr><td>Scalability</td><td>Supports multiple concurrent users and products.</td></tr>
+      <tr><td>Reliability</td><td>24/7 availability with minimal downtime.</td></tr>
+      <tr><td>Compatibility</td><td>Works across all modern browsers and devices.</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>4. System Requirements</h2>
+    <h3>💻 Hardware Requirements</h3>
+    <table>
+      <tr><th>Component</th><th>Specification</th></tr>
+      <tr><td>Processor</td><td>Intel i3 or higher</td></tr>
+      <tr><td>RAM</td><td>4 GB minimum</td></tr>
+      <tr><td>Storage</td><td>500 MB minimum</td></tr>
+      <tr><td>Internet</td><td>Stable connection for online access</td></tr>
+    </table>
+
+    <h3>🧠 Software Requirements</h3>
+    <table>
+      <tr><th>Component</th><th>Specification</th></tr>
+      <tr><td>Frontend</td><td>HTML5, CSS3, JavaScript</td></tr>
+      <tr><td>Backend (optional)</td><td>Node.js / Python Flask / Java Spring</td></tr>
+      <tr><td>Database</td><td>MySQL / Firebase</td></tr>
+      <tr><td>Hosting</td><td>GitHub Pages / Netlify</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>5. Future Enhancements</h2>
+    <ul>
+      <li>AI-based pricing suggestions for farmers.</li>
+      <li>Online payment and logistics integration.</li>
+      <li>Multi-language support for rural accessibility.</li>
+      <li>Mobile app version for Android/iOS.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Expected Outcomes</h2>
+    <ul>
+      <li>Empower rural farmers with digital tools.</li>
+      <li>Increase income through value-added products.</li>
+      <li>Build a sustainable global marketplace for agricultural goods.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 AgriConnect | Prototype for Rural Entrepreneurship Platform</p>
+  </footer>
+
+</body>
+</html>
